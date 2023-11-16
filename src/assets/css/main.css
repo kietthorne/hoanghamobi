@@ -1,0 +1,13 @@
+@import url('@Assets/less/main.less');
+body { 
+  background-color: #ececec;
+}
+*{
+  font-family: "Poppins", sans-serif; 
+}
+main{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

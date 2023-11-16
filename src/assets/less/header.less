@@ -1,0 +1,224 @@
+header {
+
+    .headers {
+        position: fixed;
+        height: 80px;
+        width: 100%;
+        z-index: 101;
+        padding: 0 20px;
+        background: #f4f4f4;
+    }
+
+    .nav {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+
+        .nav_item {
+            column-gap: 25px;
+        }
+
+        .nav_link,
+        .button-login {
+            color: #019a82;
+        }
+
+        .nav_link:hover {
+            color: #0cbde4;
+
+        }
+
+        .button-login:hover {
+            color: #0cbde4;
+            border: 2px solid #0cbde4;
+
+        }
+
+        .button-login {
+            padding: 6px 24px;
+            border: 2px solid #019a82;
+            border-radius: 6px;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        .button-login:active {
+            transform: scale(0.97);
+        }
+
+        .success_sign {
+            display: flex;
+            height: 50%;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 8px;
+
+            .image_account {
+                width: 20px;
+                height: 20px;
+                margin: 0 10px;
+            }
+
+            .name_account {
+                margin: 0 10px;
+
+            }
+
+            img {
+                border-radius: 30%;
+
+            }
+        }
+    }
+
+    nav,
+    .nav_item {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+
+}
+
+.box-search {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Mờ mờ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+
+
+
+    .Product-search-list {
+        background-color: #fff;
+        width: 600px;
+        height: 100%;
+        padding: 20px;
+        position: fixed;
+        top: 10%;
+        left: 50;
+
+        .box-items {
+            width: 500px;
+            margin: 0 auto;
+            padding: 5px;
+        }
+
+        .box-items:hover {
+            background-color: #0cbde4;
+        }
+
+        img {
+            width: 12%;
+        }
+
+        .btn-close {
+            position: fixed;
+            top: 12%;
+            left: 67%;
+        }
+    }
+
+    .Product-search-list>div {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+.dropdown-item {
+    li:hover {
+        background: #019a82;
+    }
+
+}
+
+#dropdown-basic {
+    background: #019a82;
+    margin-right: -100px;
+}
+
+
+.Product-search-list .Product-search-list p {
+    margin: 5px 0;
+}
+
+
+
+
+
+
+// Popup UPLOAD ẢNH ĐẠI DIỆN
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    background-color: #019a82;
+    padding: 20px;
+}
+
+.upLoadBox {
+
+    /* Thêm CSS cho upLoadBox */
+    img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    h3 {
+        text-align: center;
+        margin: 20px auto;
+        color: #fff;
+    }
+
+    .upLoadIMG {
+        p {
+            text-align: center;
+            font-size: 25px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        input {
+            margin: 10px 20px 5px 0;
+        }
+    }
+
+    .buttonGroup {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+
+        button {
+            margin-left: 10px;
+        }
+    }
+
+
+}
+
+
+
+// Popup UPLOAD ẢNH ĐẠI DIỆN
